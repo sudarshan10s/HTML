@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Course Registration</title>
+  </head>
+  <body align="center">
+    <h1>Course Registration Form</h1><br>
+    <form action="login.html" method="port">
+      <label>Full Name:</label><br>
+      <input type="text" id="fullname" name="fullname" required/><br><br>
+      <label>Email:</label><br>
+      <input type="email" id="email" name="email" required/><br><br>
+      <label>Phone Number:</label><br>
+      <input type="tel" id="phone" name="phone" required /><br><br>
+      <label>Date of Birth:</label><br>
+      <input type="date" id="date" name="dob"/><br><br>
+      <label>Gender:</label><br>
+      <input type="radio" name="gender"/> Male
+      <input type="radio" name="gender"/> Female
+      <input type="radio" name="gender"/> Other<br><br>
+      <label>Select Course:</label><br>
+      <select name="course">
+        <option>Java</option>
+        <option>Python</option>
+        <option>Web Development</option>
+        <option>Data Science</option>
+      </select><br><br>
+      <label>Address:</label><br>
+      <textarea rows="3" cols="30"></textarea><br /><br />
+      <label>Upload Photo:</label><br>
+      <input type="file"/><br><br>
+      <input type="submit" value="Register" />
+      <input type="reset" value="Clear" />
+    </form>
+  </body>
+</html>
